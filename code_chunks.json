@@ -1,0 +1,18 @@
+[
+  {
+    "type": "class",
+    "name": "Calculator",
+    "file": "test_codebase/sample.py",
+    "line": 5,
+    "content": "class Calculator:\n    def __init__(self):\n        self.result = 0\n\n    def add(self, a, b):\n        \"\"\"Add two numbers.\"\"\"\n        self.result = a + b\n        return self.result\n\n    def subtract(self, a, b):\n        \"\"\"Subtract b from a.\"\"\"\n        self.result = a - b\n        return self.result",
+    "docstring": "A simple calculator class that can add and subtract numbers."
+  },
+  {
+    "type": "function",
+    "name": "main",
+    "file": "test_codebase/sample.py",
+    "line": 17,
+    "content": "def main():\n    calc = Calculator()\n    print(calc.add(5, 3))\n    print(calc.subtract(10, 4))",
+    "docstring": "Main function that demonstrates the Calculator class."
+  }
+] 
